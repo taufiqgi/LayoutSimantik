@@ -1,0 +1,43 @@
+*{
+	font-size: 25px;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+header, nav, Main, aside, footer{
+	border: #000 1px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header{
+	width: 100%;
+	height: 100px;
+	margin: 5px;
+	background:beige;
+}
+nav{
+	width: 50%;
+	height: 350px;
+	margin: 5px;
+	background:scroll;
+}
+Main{
+	width: 45%;
+	height: 350px;
+	margin: 5px;
+	background:bisque;
+}
+aside{
+	width: 30%;
+	height: 350px;
+	margin: 5px;
+	background:cornsilk;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	margin: 5px;
+	background:burlywood;
+}
